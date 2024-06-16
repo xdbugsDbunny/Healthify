@@ -1,0 +1,71 @@
+:root {
+  --light: #f6f6f9;
+  --light2: #e3e3eda9;
+  --primary: #1976d2;
+  --light-primary: #cfe8ff;
+  --grey: #eee;
+  --dark-grey: #aaaaaa;
+  --dark: #363949;
+  --dark2: #61616473;
+  --danger: #d32f2f;
+  --light-danger: #fecdd3;
+  --warning: #fbc02d;
+  --light-warning: #fff2c6;
+  --success: #388e3c;
+  --light-success: #bbf7d0;
+}
+
+.card-title {
+  font-size: 1.4rem;
+  font-weight: 600;
+  margin-bottom: 10px;
+  color: var(--dark);
+}
+
+.ant-input {
+  background: var(--grey) !important;
+  color: var(--dark) !important;
+}
+
+label {
+  color: var(--dark) !important;
+}
+::placeholder {
+  color: #aaaaaa !important;
+}
+
+.ant-picker-outlined {
+  background: var(--grey) !important;
+  color: var(--dark) !important;
+}
+
+.bx-upload {
+  color: var(--dark) !important;
+}
+
+.ant-upload-select {
+  border: 2px dashed var(--dark) !important;
+}
+
+.ant-picker-suffix {
+  color: var(--dark) !important ;
+}
+
+.ant-upload-list-item-name {
+  color: var(--dark) !important ;
+}
+
+.error-message {
+  color: red;
+  text-align: center;
+  font-size: 0.8rem;
+}
+
+.anticon-swap-right {
+  color: var(--dark);
+}
+
+.timings {
+  color: var(--dark);
+  font-size: 0.8rem;
+}

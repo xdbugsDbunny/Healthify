@@ -1,0 +1,38 @@
+:root {
+  --light: #f6f6f9;
+  --primary: #1976d2;
+  --light-primary: #cfe8ff;
+  --grey: #eee;
+  --dark-grey: #aaaaaa;
+  --dark: #363949;
+  --danger: #d32f2f;
+  --light-danger: #fecdd3;
+  --warning: #fbc02d;
+  --light-warning: #fff2c6;
+  --success: #388e3c;
+  --light-success: #bbf7d0;
+}
+
+.ant-tabs-tab-btn {
+  color: var(--dark);
+  font-family: "Poppins", sans-serif;
+}
+.anchor {
+  color: var(--dark);
+  text-decoration: underline;
+  cursor: pointer;
+  font-size: 1.4rem;
+  font-family: "Poppins", sans-serif;
+}
+
+.card {
+  background-color: var(--dark-grey) !important;
+  color: var(--dark);
+  margin-bottom: 5px;
+}
+
+.notification-message {
+  color: var(--dark);
+  font-size: 1.4rem;
+  font-family: "Poppins", sans-serif;
+}

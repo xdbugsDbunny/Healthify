@@ -1,2 +1,0 @@
-# Healthify
-Doctor Appointment App

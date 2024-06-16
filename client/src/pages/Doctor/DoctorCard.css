@@ -1,0 +1,34 @@
+:root {
+    --light: #f6f6f9;
+    --primary: #1976d2;
+    --light-primary: #cfe8ff;
+    --grey: #eee;
+    --dark-grey: #aaaaaa;
+    --dark: #363949;
+    --danger: #d32f2f;
+    --light-danger: #fecdd3;
+    --warning: #fbc02d;
+    --light-warning: #fff2c6;
+    --success: #388e3c;
+    --light-success: #bbf7d0;
+  }
+  
+.ant-card{
+    background-color: var(--light) !important;
+}
+
+.ant-card-bordered{
+    border: 1px solid var(--dark);
+}
+
+.ant-card-head{
+    border-bottom: 1px solid var(--dark) !important;
+}
+.ant-card-head-title{
+    color: var(--dark-grey);
+}
+
+.card-text {
+    color: var(--dark);
+    /* border-bottom: 1px solid var(--dark); */
+}

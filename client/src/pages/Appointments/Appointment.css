@@ -1,0 +1,39 @@
+:root {
+  --light: #f6f6f9;
+  --primary: #1976d2;
+  --light-primary: #cfe8ff;
+  --grey: #eee;
+  --dark-grey: #aaaaaa;
+  --dark: #363949;
+  --danger: #d32f2f;
+  --light-danger: #fecdd3;
+  --warning: #fbc02d;
+  --light-warning: #fff2c6;
+  --success: #388e3c;
+  --light-success: #bbf7d0;
+}
+
+.color {
+  color: var(--dark);
+}
+.divider {
+  color: var(--dark);
+}
+
+.ant-table-content {
+  background-color: var(--light);
+  color: var(--dark);
+}
+.ant-table-cell {
+  background-color: var(--light) !important;
+  color: var(--dark) !important;
+  border-bottom: 1px solid var(--dark) !important;
+}
+
+.ant-pagination-item-link {
+  color: var(--dark) !important;
+}
+
+.ant-empty-description {
+  color: var(--dark) !important;
+}
