@@ -1,4 +1,5 @@
 {
+  "homepage": "http://localhost:5173/login",
   "name": "client",
   "private": true,
   "version": "0.0.0",
